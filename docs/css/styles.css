@@ -72,6 +72,15 @@ button{
   border: 1px solid #B627B5;
 }
 
+.border-gradient {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to bottom, #B627B5, #D7864D);
+}
+
 /* start collapse boxes */
 .collapsible {
   background-color: #777;
